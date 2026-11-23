@@ -1,6 +1,6 @@
 /* 10m Air Rifle Final CRO Timer – offline service worker. Change VERSION after every update of index.html */
 const PREFIX = "ar-final-cro-";
-const VERSION = PREFIX + "v2";
+const VERSION = PREFIX + "v5";
 const CORE = ["./", "./index.html", "./manifest.webmanifest", "./ar-icon-180.png", "./ar-icon-192.png", "./ar-icon-512.png"];
 
 self.addEventListener("install", e => {
